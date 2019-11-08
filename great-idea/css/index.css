@@ -63,4 +63,111 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+body {
+	width: 95%;
+	margin: auto;
+}
+
+h1 {
+	font-size: 65px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+	padding-top:30px;
+}
+h4{
+	font-size: 35px;
+}
+nav {
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+	margin: 10px;
+	padding: 10px;
+}
+
+section {
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	margin:20px 0 20px 0;
+}
+
+button {
+	border-radius: 4px;	
+	
+
+}
+
+.center {
+	text-align: center;	
+}
+
+.centerbutton {
+	justify-content: center;
+}
+
+p {
+	padding-bottom:10px;
+}
+
+div {
+	width:380px;
+	height:380px;
+	margin:40px 0 60px 0;
+
+}
+.div1 {
+	width: 250px;
+	height:150px;
+	margin:20px 0 40px 0;
+}
+
+.middle-img {
+	width:100%;
+}
+.withb {
+	border-top: 2px solid black;
+
+}
+
+.greybox {
+	border:2px solid black;
+	background:lightgrey;
+	padding:15px;
+	width: 350px;
+	height:200px;
+	margin:20px;
+}
+.logo {
+	
+}
+
+.container {
+    width: 183px;
+    height: 36px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.a {
+	list-style-type: circle;
+  }
+
+  li {
+	  padding-bottom: 5px;
+	  margin-left: 20px;
+  }
+  
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
